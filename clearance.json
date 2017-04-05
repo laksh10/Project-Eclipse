@@ -1,0 +1,57 @@
+{
+"clearData" :[
+  { 
+    "clearProduct": "XoXo for Women",
+    "picture": "../img/clear1.jpg",
+    "description": "XoXo for Women by XoXo Gift Set",
+    "cost": 200
+  }
+  ,
+  { 
+    "clearProduct": "Beyonce Heat Rush",
+    "picture": "../img/clear2.jpg",
+    "description": "Heat Rush for women by Beyonce Eau De Toilette Spray ",
+    "cost" :  300
+  },  
+  { 
+    "clearProduct": "Fabulous by Isaac Mizrahi",
+    "picture": "../img/clear3.jpg",
+    "description": "Fabulous for women by Isaac Mizrahi Eau De Perfume Spray",
+    "cost": 500
+  },
+  { 
+    "clearProduct": "Escada Absolutely Me",
+    "picture": "../img/clear4.jpg",
+    "description": "Absolutely Me for women by Escada Eau De Perfume Spray",
+    "cost": 600
+  },
+  {
+    "clearProduct": "Xeryus Rouge by Givenchy",
+    "picture": "../img/clear5.jpg",
+    "description": "Xeryus Rouge for Men by Givenchy Toilette Eau De Toilette Spray",
+    "cost": 40
+  },
+  {
+    "clearProduct": "Paris Hilton Tease",
+    "picture": "../img/clear6.jpg",
+    "description": "Tease by Paris Hilton Eau De Perfume Spray",
+    "cost" :  30
+  },
+  {
+    "clearProduct": "Xeryus Rouge by Givenchy",
+    "picture": "../img/clear7.jpg",
+    "description": "Xeryus Rouge for Men by Givenchy Toilette Eau De Toilette Spray",
+    "cost": 40
+  },
+  {
+    "clearProduct": "Paris Hilton Tease",
+    "picture": "../img/clear8.jpg",
+    "description": "Tease by Paris Hilton Eau De Perfume Spray",
+    "cost" :  30
+  }
+ 
+ 
+  
+]
+
+}
