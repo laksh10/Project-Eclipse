@@ -1,0 +1,62 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<center>
+<div class="container">
+            <div class="table-responsive">
+               <table class="table borderless" style="width:70%; ">
+
+            <tr><td>   <img src="img/capture7.png" class="img-rounded img-responsive" alt="capture7" style="height:200px;"></td>
+              </tr></table>
+<img src="img/capture3.png" alt="capture3" class="img-rounded img-responsive" style="width:70%;">
+
+
+              </div>
+
+
+
+   <div  id="one" ng-app="eclipseModule" ng-controller="bbCtrl" style=" width:70%">
+        <div   ng-repeat="x in names"  style="margin-top:1%; padding:1%; width:20%; height:300px; border:1px solid black;  float:left; margin-left:2%; position:relative;">
+
+     <form name="form1"> 
+                                  <div><h5>{{ x.bbProduct }}</h5></div>
+                                   <div><img ng-src= "{{ x.picture }}" class="img-rounded img-responsive img-thumbnail"  alt="pics" style=" height:100px;" /></div>
+
+                           <p style="font-family:calibri; font-size:14px;">{{ x.description }}</p>
+                            <p id="price1" style="font-family:Calibri; font-size:14px; color:green;"><b>{{ x.cost }}</b></p>
+  
+                          <div class="form-group" > <input type="number" class="form-control input-sm" id="inputsm" ng-model="textbox" min="1" style="border-radius:3px; border:1px solid grey; width:30%; float:left;" ng-hide="hiddenbtn[$index]" /></div>
+    
+
+
+         <div id="dis" style="float: left;"> <button type="button" id="button1" ng-hide="hiddenbtn[$index]" ng-click="add($index,x.cost,textbox)" class="btn btn-default btn-xs" style="background-color:deepskyblue; color:white; width:100%; border:2px solid grey; border-radius:3px; margin-top: 0px; "> Add to cart</button>
+         </form>
+                </div>
+
+
+           <div id="remove" style="clear:both;" ng-show="hiddenbtn[$index]" > This item has been added to cart.<button type="button" ng-click="minus($index,x.cost,textbox)" class="btn btn-danger"> Remove </button></div>
+    
+    </div></div>
+
+
+    <br>
+
+<div style="clear:both;">
+ <ul class="pagination">
+    <li class="active"><a href="#">1</a></li>
+    <li ><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+   
+  </ul>
+
+</div>
+
+
+
+    </div>
+
+</center>
+
+<script src="js\bb.js"></script>

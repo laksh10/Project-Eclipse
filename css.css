@@ -1,0 +1,72 @@
+/* site Name */
+
+
+#sitename {width:70%;
+            background:linear-gradient(  pink, hotpink);
+            margin-top: 0px;
+            padding:10px;
+        }
+
+
+/* The navigation bar */
+
+.navbar {width:70%; }
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; 
+}
+
+
+/* li a:hover, .dropdown:hover .dropbtn {
+    background-color: ; */
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {color:hotpink; background-color: black;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
